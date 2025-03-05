@@ -1,2 +1,2 @@
 # premium-fitness-watch-987322-repo
-Landing page for a product
+Landing page for a product ok
