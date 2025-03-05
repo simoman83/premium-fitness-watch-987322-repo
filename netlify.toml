@@ -1,0 +1,18 @@
+
+# Netlify configuration file
+
+[build]
+  publish = "/"
+  command = "echo 'No build command needed'"
+
+# Redirect form submissions to thank you page
+[[redirects]]
+  from = "/submit-form"
+  to = "/thank-you.html"
+  status = 303
+
+# Fallback for SPA routing if needed
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
